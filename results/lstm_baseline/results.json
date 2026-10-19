@@ -1,0 +1,24 @@
+{
+    "hyperparameters": {
+        "seed": 1,
+        "window_size": 30,
+        "rul_cap": 125,
+        "hidden_size": 32,
+        "num_layers": 3,
+        "dropout": 0.48,
+        "learning_rate": 0.004138,
+        "batch_size": 128,
+        "max_epochs": 100,
+        "patience": 25
+    },
+    "n_features": 13,
+    "trainable_parameters": 22945,
+    "metrics": {
+        "best_epoch_train_rmse": 14.953218975484331,
+        "stopped_epoch": 54,
+        "best_val_epoch": 29,
+        "best_val_rmse": 11.662542126981608,
+        "test_rmse": 13.370246917051235,
+        "test_phm08_score": 320.8066173487377
+    }
+}

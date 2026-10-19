@@ -1,0 +1,39 @@
+{
+    "hyperparameters": {
+        "hidden_size": 32,
+        "num_layers": 3,
+        "dropout": 0.4828160165372797,
+        "learning_rate": 0.004138040112561018,
+        "batch_size": 128,
+        "window_size": 30,
+        "rul_cap": 125,
+        "epochs": 45
+    },
+    "search": {
+        "n_trials": 50,
+        "n_complete": 40,
+        "n_pruned": 10,
+        "n_val_engines": 20,
+        "best_val_rmse": 11.43813049494417
+    },
+    "n_features": 13,
+    "trainable_parameters": 22945,
+    "metrics": {
+        "test_rmse_mean": 14.4506884751633,
+        "test_rmse_std": 1.3047134040559238,
+        "test_phm08_score_mean": 444.1378339754755,
+        "test_phm08_score_std": 196.5918354887694,
+        "per_seed": [
+            {
+                "seed": 0,
+                "test_rmse": 13.528116779650373,
+                "test_phm08_score": 305.1264139754565
+            },
+            {
+                "seed": 1,
+                "test_rmse": 15.373260170676229,
+                "test_phm08_score": 583.1492539754945
+            }
+        ]
+    }
+}
